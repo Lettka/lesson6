@@ -27,7 +27,7 @@ public class Main {
             for (Obstacle o:
                  obstacles) {
                 if(!o.overcome(p))
-                    break;;
+                    break;
             }
             System.out.println();
         }
