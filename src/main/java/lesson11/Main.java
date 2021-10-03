@@ -12,7 +12,7 @@ public class Main {
         System.out.println(Arrays.toString(apples));
         System.out.println("\nTask2-3");
         Box<Apple> box1 = new Box<>(arrayToArrayList(apples));
-        Box<Orange> box2 = new Box();
+        Box<Orange> box2 = new Box<>();
         Box<Apple> box3 = new Box<>(new Apple(1.4));
         box2.add(new Orange(1.5));
         box2.add(new Orange(1.7));
