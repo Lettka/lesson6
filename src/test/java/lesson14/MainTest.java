@@ -72,11 +72,12 @@ class MainTest {
 
     @Test
     void find4_4() {
-        Assertions.assertEquals(-1, Main.find4(new int[]{}));
+        Assertions.assertEquals(-1, Main.find4(new int[]{1, 2, 5, 3, 2, 3, 8, 1, 9}));
     }
 
     @Test
     void find4_5() {
-        Assertions.assertEquals(-1, Main.find4(new int[]{1, 2, 5, 3, 2, 3, 8, 1, 9}));
+        Assertions.assertEquals(-1, Main.find4(new int[]{}));
     }
+
 }

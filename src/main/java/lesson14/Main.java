@@ -3,17 +3,8 @@ package lesson14;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
-
 public class Main {
     public static final Logger log = LogManager.getLogger();
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(arrayAfterLastFour(new int[]{4, 1, 2, 0, 5, 2, 3, 8, 1, 7})));
-        System.out.println(contains1And4(new int[]{}));
-        System.out.println(true && true);
-
-    }
 
     public static int[] arrayAfterLastFour(int[] array) {
         int[] result;
