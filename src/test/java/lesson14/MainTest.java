@@ -32,27 +32,27 @@ class MainTest {
 
     @Test
     void contains1And4_1() {
-        Assertions.assertEquals(true, Main.contains1And4(new int[]{4, 1, 1, 4, 1, 4, 1, 4, 1, 1}));
+        Assertions.assertTrue(Main.contains1And4(new int[]{4, 1, 1, 4, 1, 4, 1, 4, 1, 1}));
     }
 
     @Test
     void contains1And4_2() {
-        Assertions.assertEquals(false, Main.contains1And4(new int[]{4, 1, 1, 4, 1, 4, 3, 4, 1, 1}));
+        Assertions.assertFalse(Main.contains1And4(new int[]{4, 1, 1, 4, 1, 4, 3, 4, 1, 1}));
     }
 
     @Test
     void contains1And4_3() {
-        Assertions.assertEquals(false, Main.contains1And4(new int[]{4, 4, 4, 4, 4}));
+        Assertions.assertFalse(Main.contains1And4(new int[]{4, 4, 4, 4, 4}));
     }
 
     @Test
     void contains1And4_4() {
-        Assertions.assertEquals(false, Main.contains1And4(new int[]{1, 1, 1, 1, 1, 1, 1}));
+        Assertions.assertFalse(Main.contains1And4(new int[]{1, 1, 1, 1, 1, 1, 1}));
     }
 
     @Test
     void contains1And4_5() {
-        Assertions.assertEquals(false, Main.contains1And4(new int[]{}));
+        Assertions.assertFalse(Main.contains1And4(new int[]{}));
     }
 
     @Test
